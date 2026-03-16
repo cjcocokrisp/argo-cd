@@ -11,8 +11,8 @@ patches:
 
 images:
 - name: quay.io/argoproj/argocd
-  newName: quay.io/argoproj/argocd
-  newTag: latest
+  newName: quay.io/rh-ee-ccoco/argocd-from-workflow
+  newTag: v1.2
 resources:
 - ../../base/application-controller
 - ../../base/applicationset-controller
